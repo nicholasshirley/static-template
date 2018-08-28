@@ -11,6 +11,11 @@ export default new Router({
       name: 'home',
       component: Home,
     },
+    {
+      path: '/demo',
+      name: 'demo',
+      component: () => import('./views/Demo.vue'),
+    },
     // Keep block only for the note on lazy loading below
     // {
     //   path: '/about',
