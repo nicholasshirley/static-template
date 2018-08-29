@@ -95,7 +95,7 @@ namespace :deploy do
   before :starting,     :check_revision
   after  :finishing,    :compile_assets
   after  :finishing,    :npm_install
-  after  :finishign,    :npm_build
+  after  :finishing,    :npm_build
   after  :finishing,    :cleanup
   after  :finishing,    :restart
 end
