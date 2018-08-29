@@ -1,8 +1,8 @@
 # Change these
-server '138.68.44.63', port: 22, roles: [:web, :app, :db], primary: true
+server '0.0.0.0', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:nicholasshirley/nk-okc.git'
-set :application,     'nk-okc'
+set :repo_url,        'git@github.com:USER_NAME/REPO_NAME.git'
+set :application,     'PROJECT_NAME'
 set :user,            'production'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
